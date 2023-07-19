@@ -15,7 +15,7 @@ def get_utc_time():
 
 def update_time_labels():
     """Updates the time labels with the current system time and UTC time."""
-    central_time_label.config(text="System Time\n" + get_current_time())
+    system_time_label.config(text="System Time\n" + get_current_time())
     utc_time_label.config(text="UTC Time\n" + get_utc_time())
     root.after(1000, update_time_labels)  # Schedule the update after 1000 milliseconds (1 second)
 
@@ -35,8 +35,8 @@ arial = ("Arial", 30)
 style = ttk.Style()
 style.configure("TLabel", font=arial, anchor="center", justify="center")
 
-central_time_label = ttk.Label(root, style="TLabel")
-central_time_label.pack(fill=tk.BOTH, expand=True)
+system_time_label = ttk.Label(root, style="TLabel")
+system_time_label.pack(fill=tk.BOTH, expand=True)
 
 utc_time_label = ttk.Label(root, style="TLabel")
 utc_time_label.pack(fill=tk.BOTH, expand=True)
