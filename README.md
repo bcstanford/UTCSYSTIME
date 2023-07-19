@@ -4,9 +4,9 @@ Time Display
 This Python script displays the current system time and UTC time in a graphical user interface (GUI). The time is updated every second.
 
 ## Features
-Displays current system time in "System Time" label.
-Displays current UTC time in "UTC Time" label.
-Updates the time every second, providing real-time information.
+* Displays current system time in "System Time" label.
+* Displays current UTC time in "UTC Time" label.
+* Updates the time every second, providing real-time information.
 
 ## Installation
 Make sure you have Python installed on your system. The script is compatible with Python 3.x versions.
