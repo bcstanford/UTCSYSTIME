@@ -21,7 +21,7 @@ python time_display_app.py
 The GUI window will open, displaying the current system time and UTC time, updating every second.
 
 ## Customization
-To change the font size or font style of the time display, modify the open_sans_font variable in the script.
+To change the font size or font style of the time display, modify the arial variable in the script.
 If you prefer a different font family, make sure it is installed on your system, and update the font name accordingly.
 You can adjust the position and size of the window by modifying the window_width and window_height variables in the script.
 Requirements
